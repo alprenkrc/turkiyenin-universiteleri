@@ -21,6 +21,7 @@ export default function RootLayout({
 
   const gaId: string = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS || '';
 
+
   return (
     <html lang="tr">
       <body className={`${inter.className} bg-gray-100`}>
