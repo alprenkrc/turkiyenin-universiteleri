@@ -75,7 +75,7 @@ const Page = () => {
         <div className='items-center flex flex-col '>
           <h1 className="text-2xl font-bold text-black mt-4">Türkiye`&apos;`nin Üniversite Haritası</h1>
           <p className="text-xl text-gray-800 ">Toplam Üniversite Sayısı: {filteredUniversityCount}</p>
-          <p className="text-sm text-gray-500 mt-1">Veriler YÖK Atlas'tan alınmıştır.</p>
+          <p className="text-sm text-gray-500 mt-1">Veriler YÖK Atlas`&apos;`tan alınmıştır.</p>
         </div>
 
         <div className="flex justify-center gap-2 max-md:flex-col">
