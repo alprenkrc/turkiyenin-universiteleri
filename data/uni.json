@@ -1,0 +1,1882 @@
+{
+  "coordinates": [
+    {
+      "id": "TR01",
+      "city": "Adana",
+      "universities": [
+        {
+          "id": "adana-alparslan-turkes-bilim-ve-teknoloji-universitesi",
+          "name": "Adana Alparslan Türkeş Bilim ve Teknoloji Üniversitesi",
+          "type": "Devlet",
+          "established": 2011
+        },
+        {
+          "id": "cukurova-universitesi",
+          "name": "Çukurova Üniversitesi",
+          "type": "Devlet",
+          "established": 1973
+        }
+      ],
+      "cx": 511.6,
+      "cy": 315.2
+    },
+    {
+      "id": "TR02",
+      "city": "Adıyaman",
+      "universities": [
+        {
+          "id": "adiyaman-universitesi",
+          "name": "Adıyaman Üniversitesi",
+          "type": "Devlet",
+          "established": 2006
+        }
+      ],
+      "cx": 654.1,
+      "cy": 282.2
+    },
+    {
+      "id": "TR03",
+      "city": "Afyonkarahisar",
+      "universities": [
+        {
+          "id": "afyon-kocatepe-universitesi",
+          "name": "Afyon Kocatepe Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        },
+        {
+          "id": "afyonkarahisar-saglik-bilimleri-universitesi",
+          "name": "Afyonkarahisar Sağlık Bilimleri Üniversitesi",
+          "type": "Devlet",
+          "established": 2018
+        }
+      ],
+      "cx": 277.4,
+      "cy": 233.6
+    },
+    {
+      "id": "TR04",
+      "city": "Ağrı",
+      "universities": [
+        {
+          "id": "agri-ibrahim-cecen-universitesi",
+          "name": "Ağrı İbrahim Çeçen Üniversitesi",
+          "type": "Devlet",
+          "established": 2007
+        }
+      ],
+      "cx": 869.6,
+      "cy": 173.1
+    },
+    {
+      "id": "TR05",
+      "city": "Amasya",
+      "universities": [
+        {
+          "id": "amasya-universitesi",
+          "name": "Amasya Üniversitesi",
+          "type": "Devlet",
+          "established": 2006
+        }
+      ],
+      "cx": 520.5,
+      "cy": 110
+    },
+    {
+      "id": "TR06",
+      "city": "Ankara",
+      "universities": [
+        {
+          "id": "ankara-universitesi",
+          "name": "Ankara Üniversitesi",
+          "type": "Devlet",
+          "established": 1946
+        },
+        {
+          "id": "ankara-muzik-ve-guzel-sanatlar-universitesi",
+          "name": "Ankara Müzik ve Güzel Sanatlar Üniversitesi",
+          "type": "Devlet",
+          "established": 2017
+        },
+        {
+          "id": "ankara-haci-bayram-veli-universitesi",
+          "name": "Ankara Hacı Bayram Veli Üniversitesi",
+          "type": "Devlet",
+          "established": 2018
+        },
+        {
+          "id": "ankara-sosyal-bilimler-universitesi",
+          "name": "Ankara Sosyal Bilimler Üniversitesi",
+          "type": "Devlet",
+          "established": 2013
+        },
+        {
+          "id": "gazi-universitesi",
+          "name": "Gazi Üniversitesi",
+          "type": "Devlet",
+          "established": 1926
+        },
+        {
+          "id": "hacettepe-universitesi",
+          "name": "Hacettepe Üniversitesi",
+          "type": "Devlet",
+          "established": 1967
+        },
+        {
+          "id": "orta-dogu-teknik-universitesi",
+          "name": "Orta Doğu Teknik Üniversitesi",
+          "type": "Devlet",
+          "established": 1959
+        },
+        {
+          "id": "ankara-yildirim-beyazit-universitesi",
+          "name": "Ankara Yıldırım Beyazıt Üniversitesi",
+          "type": "Devlet",
+          "established": 2010
+        },
+        {
+          "id": "ankara-bilim-universitesi",
+          "name": "Ankara Bilim Üniversitesi",
+          "type": "Vakıf",
+          "established": 2020
+        },
+        {
+          "id": "ankara-medipol-universitesi",
+          "name": "Ankara Medipol Üniversitesi",
+          "type": "Vakıf",
+          "established": 2018
+        },
+        {
+          "id": "atilim-universitesi",
+          "name": "Atılım Üniversitesi",
+          "type": "Vakıf",
+          "established": 1997
+        },
+        {
+          "id": "baskent-universitesi",
+          "name": "Başkent Üniversitesi",
+          "type": "Vakıf",
+          "established": 1994
+        },
+        {
+          "id": "cankaya-universitesi",
+          "name": "Çankaya Üniversitesi",
+          "type": "Vakıf",
+          "established": 1997
+        },
+        {
+          "id": "ihsan-dogramaci-bilkent-universitesi",
+          "name": "İhsan Doğramacı Bilkent Üniversitesi",
+          "type": "Vakıf",
+          "established": 1984
+        },
+        {
+          "id": "lokman-hekim-universitesi",
+          "name": "Lokman Hekim Üniversitesi",
+          "type": "Vakıf",
+          "established": 2018
+        },
+        {
+          "id": "ostim-teknik-universitesi",
+          "name": "Ostim Teknik Üniversitesi",
+          "type": "Vakıf",
+          "established": 2017
+        },
+        {
+          "id": "ted-universitesi",
+          "name": "TED Üniversitesi",
+          "type": "Vakıf",
+          "established": 2009
+        },
+        {
+          "id": "tobb-ekonomi-ve-teknoloji-universitesi",
+          "name": "TOBB Ekonomi ve Teknoloji Üniversitesi",
+          "type": "Vakıf",
+          "established": 2003
+        },
+        {
+          "id": "ufuk-universitesi",
+          "name": "Ufuk Üniversitesi",
+          "type": "Vakıf",
+          "established": 1999
+        },
+        {
+          "id": "turk-hava-kurumu-universitesi",
+          "name": "Türk Hava Kurumu Üniversitesi",
+          "type": "Vakıf",
+          "established": 2011
+        },
+        {
+          "id": "yuksek-ihtisas-universitesi",
+          "name": "Yüksek İhtisas Üniversitesi",
+          "type": "Vakıf",
+          "established": 2013
+        }
+      ],
+      "cx": 374.2,
+      "cy": 163.1
+    },
+    {
+      "id": "TR07",
+      "city": "Antalya",
+      "universities": [
+        {
+          "id": "akdeniz-universitesi",
+          "name": "Akdeniz Üniversitesi",
+          "type": "Devlet",
+          "established": 1982
+        },
+        {
+          "id": "alanya-alaaddin-keykubat-universitesi",
+          "name": "Alanya Alaaddin Keykubat Üniversitesi",
+          "type": "Devlet",
+          "established": 2015
+        },
+        {
+          "id": "alanya-universitesi",
+          "name": "Alanya Üniversitesi",
+          "type": "Vakıf",
+          "established": 2011
+        },
+        {
+          "id": "antalya-belek-universitesi",
+          "name": "Antalya Belek Üniversitesi",
+          "type": "Vakıf",
+          "established": 2015
+        },
+        {
+          "id": "antalya-bilim-universitesi",
+          "name": "Antalya Bilim Üniversitesi",
+          "type": "Vakıf",
+          "established": 2010
+        }
+      ],
+      "cx": 260.9,
+      "cy": 341.5
+    },
+    {
+      "id": "TR08",
+      "city": "Artvin",
+      "universities": [
+        {
+          "id": "artvin-coruh-universitesi",
+          "name": "Artvin Çoruh Üniversitesi",
+          "type": "Devlet",
+          "established": 2007
+        }
+      ],
+      "cx": 807.8,
+      "cy": 83.6
+    },
+    {
+      "id": "TR09",
+      "city": "Aydın",
+      "universities": [
+        {
+          "id": "aydin-adnan-menderes-universitesi",
+          "name": "Aydın Adnan Menderes Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        }
+      ],
+      "cx": 157,
+      "cy": 289.6
+    },
+    {
+      "id": "TR10",
+      "city": "Balıkesir",
+      "universities": [
+        {
+          "id": "balikesir-universitesi",
+          "name": "Balıkesir Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        },
+        {
+          "id": "bandirma-onyedi-eylul-universitesi",
+          "name": "Bandırma Onyedi Eylül Üniversitesi",
+          "type": "Devlet",
+          "established": 2015
+        }
+      ],
+      "cx": 151.2,
+      "cy": 166.5
+    },
+    {
+      "id": "TR11",
+      "city": "Bilecik",
+      "universities": [
+        {
+          "id": "bilecik-seyh-edebali-universitesi",
+          "name": "Bilecik Şeyh Edebali Üniversitesi",
+          "type": "Devlet",
+          "established": 2007
+        }
+      ],
+      "cx": 254.6,
+      "cy": 145.8
+    },
+    {
+      "id": "TR12",
+      "city": "Bingöl",
+      "universities": [
+        {
+          "id": "bingol-universitesi",
+          "name": "Bingöl Üniversitesi",
+          "type": "Devlet",
+          "established": 2007
+        }
+      ],
+      "cx": 763.2,
+      "cy": 210.5
+    },
+    {
+      "id": "TR13",
+      "city": "Bitlis",
+      "universities": [
+        {
+          "id": "bitlis-eren-universitesi",
+          "name": "Bitlis Eren Üniversitesi",
+          "type": "Devlet",
+          "established": 2007
+        }
+      ],
+      "cx": 837.3,
+      "cy": 242.3
+    },
+    {
+      "id": "TR14",
+      "city": "Bolu",
+      "universities": [
+        {
+          "id": "bolu-abant-izzet-baysal-universitesi",
+          "name": "Bolu Abant İzzet Baysal Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        }
+      ],
+      "cx": 331.9,
+      "cy": 112.6
+    },
+    {
+      "id": "TR15",
+      "city": "Burdur",
+      "universities": [
+        {
+          "id": "burdur-mehmet-akif-ersoy-universitesi",
+          "name": "Burdur Mehmet Akif Ersoy Üniversitesi",
+          "type": "Devlet",
+          "established": 2006
+        }
+      ],
+      "cx": 247.3,
+      "cy": 305
+    },
+    {
+      "id": "TR16",
+      "city": "Bursa",
+      "universities": [
+        {
+          "id": "bursa-teknik-universitesi",
+          "name": "Bursa Teknik Üniversitesi",
+          "type": "Devlet",
+          "established": 2010
+        },
+        {
+          "id": "bursa-uludag-universitesi",
+          "name": "Bursa Uludağ Üniversitesi",
+          "type": "Devlet",
+          "established": 1975
+        },
+        {
+          "id": "mudanya-universitesi",
+          "name": "Mudanya Üniversitesi",
+          "type": "Vakıf",
+          "established": 2022
+        }
+      ],
+      "cx": 205.6,
+      "cy": 151.1
+    },
+    {
+      "id": "TR17",
+      "city": "Çanakkale",
+      "universities": [
+        {
+          "id": "canakkale-onsekiz-mart-universitesi",
+          "name": "Çanakkale Onsekiz Mart Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        }
+      ],
+      "cx": 100.3,
+      "cy": 147.9
+    },
+    {
+      "id": "TR18",
+      "city": "Çankırı",
+      "universities": [
+        {
+          "id": "cankiri-karatekin-universitesi",
+          "name": "Çankırı Karatekin Üniversitesi",
+          "type": "Devlet",
+          "established": 2007
+        }
+      ],
+      "cx": 422,
+      "cy": 108.9
+    },
+    {
+      "id": "TR19",
+      "city": "Çorum",
+      "universities": [
+        {
+          "id": "hitit-universitesi",
+          "name": "Hitit Üniversitesi",
+          "type": "Devlet",
+          "established": 2006
+        }
+      ],
+      "cx": 471.6,
+      "cy": 120.2
+    },
+    {
+      "id": "TR20",
+      "city": "Denizli",
+      "universities": [
+        {
+          "id": "pamukkale-universitesi",
+          "name": "Pamukkale Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        }
+      ],
+      "cx": 216.6,
+      "cy": 283.6
+    },
+    {
+      "id": "TR21",
+      "city": "Diyarbakır",
+      "universities": [
+        {
+          "id": "dicle-universitesi",
+          "name": "Dicle Üniversitesi",
+          "type": "Devlet",
+          "established": 1973
+        }
+      ],
+      "cx": 737.1,
+      "cy": 269.4
+    },
+    {
+      "id": "TR22",
+      "city": "Edirne",
+      "universities": [
+        {
+          "id": "trakya-universitesi",
+          "name": "Trakya Üniversitesi",
+          "type": "Devlet",
+          "established": 1982
+        }
+      ],
+      "cx": 87.9,
+      "cy": 81.4
+    },
+    {
+      "id": "TR23",
+      "city": "Elazığ",
+      "universities": [
+        {
+          "id": "firat-universitesi",
+          "name": "Fırat Üniversitesi",
+          "type": "Devlet",
+          "established": 1975
+        }
+      ],
+      "cx": 686.5,
+      "cy": 236.8
+    },
+    {
+      "id": "TR24",
+      "city": "Erzincan",
+      "universities": [
+        {
+          "id": "erzincan-binali-yildirim-universitesi",
+          "name": "Erzincan Binali Yıldırım Üniversitesi",
+          "type": "Devlet",
+          "established": 2006
+        }
+      ],
+      "cx": 675.3,
+      "cy": 168.3
+    },
+    {
+      "id": "TR25",
+      "city": "Erzurum",
+      "universities": [
+        {
+          "id": "ataturk-universitesi",
+          "name": "Atatürk Üniversitesi",
+          "type": "Devlet",
+          "established": 1957
+        },
+        {
+          "id": "erzurum-teknik-universitesi",
+          "name": "Erzurum Teknik Üniversitesi",
+          "type": "Devlet",
+          "established": 2010
+        }
+      ],
+      "cx": 799.5,
+      "cy": 154
+    },
+    {
+      "id": "TR26",
+      "city": "Eskişehir",
+      "universities": [
+        {
+          "id": "anadolu-universitesi",
+          "name": "Anadolu Üniversitesi",
+          "type": "Devlet",
+          "established": 1982
+        },
+        {
+          "id": "eskisehir-osmangazi-universitesi",
+          "name": "Eskişehir Osmangazi Üniversitesi",
+          "type": "Devlet",
+          "established": 1993
+        },
+        {
+          "id": "eskisehir-teknik-universitesi",
+          "name": "Eskişehir Teknik Üniversitesi",
+          "type": "Devlet",
+          "established": 2018
+        }
+      ],
+      "cx": 302.9,
+      "cy": 174.3
+    },
+    {
+      "id": "TR27",
+      "city": "Gaziantep",
+      "universities": [
+        {
+          "id": "gaziantep-universitesi",
+          "name": "Gaziantep Üniversitesi",
+          "type": "Devlet",
+          "established": 1987
+        },
+        {
+          "id": "gaziantep-islam-bilim-ve-teknoloji-universitesi",
+          "name": "Gaziantep İslam Bilim ve Teknoloji Üniversitesi",
+          "type": "Devlet",
+          "established": 2018
+        },
+        {
+          "id": "hasan-kalyoncu-universitesi",
+          "name": "Hasan Kalyoncu Üniversitesi",
+          "type": "Vakıf",
+          "established": 2008
+        },
+        {
+          "id": "sanko-universitesi",
+          "name": "Sanko Üniversitesi",
+          "type": "Vakıf",
+          "established": 2013
+        }
+      ],
+      "cx": 604.7,
+      "cy": 330
+    },
+    {
+      "id": "TR28",
+      "city": "Giresun",
+      "universities": [
+        {
+          "id": "giresun-universitesi",
+          "name": "Giresun Üniversitesi",
+          "type": "Devlet",
+          "established": 2006
+        }
+      ],
+      "cx": 656.3,
+      "cy": 115.1
+    },
+    {
+      "id": "TR29",
+      "city": "Gümüşhane",
+      "universities": [
+        {
+          "id": "gumushane-universitesi",
+          "name": "Gümüşhane Üniversitesi",
+          "type": "Devlet",
+          "established": 2008
+        }
+      ],
+      "cx": 698.7,
+      "cy": 135
+    },
+    {
+      "id": "TR30",
+      "city": "Hakkâri",
+      "universities": [
+        {
+          "id": "hakkari-universitesi",
+          "name": "Hakkari Üniversitesi",
+          "type": "Devlet",
+          "established": 2008
+        }
+      ],
+      "cx": 925.7,
+      "cy": 298.3
+    },
+    {
+      "id": "TR31",
+      "city": "Hatay",
+      "universities": [
+        {
+          "id": "iskenderun-teknik-universitesi",
+          "name": "İskenderun Teknik Üniversitesi",
+          "type": "Devlet",
+          "established": 2015
+        },
+        {
+          "id": "hatay-mustafa-kemal-universitesi",
+          "name": "Hatay Mustafa Kemal Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        }
+      ],
+      "cx": 546,
+      "cy": 370.8
+    },
+    {
+      "id": "TR32",
+      "city": "Isparta",
+      "universities": [
+        {
+          "id": "suleyman-demirel-universitesi",
+          "name": "Süleyman Demirel Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        },
+        {
+          "id": "isparta-uygulamali-bilimler-universitesi",
+          "name": "Isparta Uygulamalı Bilimler Üniversitesi",
+          "type": "Devlet",
+          "established": 2018
+        }
+      ],
+      "cx": 299.1,
+      "cy": 277.4
+    },
+    {
+      "id": "TR33",
+      "city": "Mersin",
+      "universities": [
+        {
+          "id": "mersin-universitesi",
+          "name": "Mersin Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        },
+        {
+          "id": "tarsus-universitesi",
+          "name": "Tarsus Üniversitesi",
+          "type": "Devlet",
+          "established": 2018
+        },
+        {
+          "id": "cag-universitesi",
+          "name": "Çağ Üniversitesi",
+          "type": "Vakıf",
+          "established": 1997
+        },
+        {
+          "id": "toros-universitesi",
+          "name": "Toros Üniversitesi",
+          "type": "Vakıf",
+          "established": 2009
+        }
+      ],
+      "cx": 432.7,
+      "cy": 353.6
+    },
+    {
+      "id": "TR34",
+      "city": "İstanbul",
+      "universities": [
+        {
+          "id": "bogazici-universitesi",
+          "name": "Boğaziçi Üniversitesi",
+          "type": "Devlet",
+          "established": 1971
+        },
+        {
+          "id": "galatasaray-universitesi",
+          "name": "Galatasaray Üniversitesi",
+          "type": "Devlet",
+          "established": 1994
+        },
+        {
+          "id": "istanbul-medeniyet-universitesi",
+          "name": "İstanbul Medeniyet Üniversitesi",
+          "type": "Devlet",
+          "established": 2010
+        },
+        {
+          "id": "istanbul-teknik-universitesi",
+          "name": "İstanbul Teknik Üniversitesi",
+          "type": "Devlet",
+          "established": 1944
+        },
+        {
+          "id": "istanbul-universitesi",
+          "name": "İstanbul Üniversitesi",
+          "type": "Devlet",
+          "established": 1933
+        },
+        {
+          "id": "istanbul-universitesi-cerrahpasa",
+          "name": "İstanbul Üniversitesi-Cerrahpaşa",
+          "type": "Devlet",
+          "established": 2018
+        },
+        {
+          "id": "marmara-universitesi",
+          "name": "Marmara Üniversitesi",
+          "type": "Devlet",
+          "established": 1982
+        },
+        {
+          "id": "mimar-sinan-guzel-sanatlar-universitesi",
+          "name": "Mimar Sinan Güzel Sanatlar Üniversitesi",
+          "type": "Devlet",
+          "established": 1982
+        },
+        {
+          "id": "turk-alman-universitesi",
+          "name": "Türk-Alman Üniversitesi",
+          "type": "Devlet",
+          "established": 2010
+        },
+        {
+          "id": "saglik-bilimleri-universitesi",
+          "name": "Sağlık Bilimleri Üniversitesi",
+          "type": "Devlet",
+          "established": 2015
+        },
+        {
+          "id": "yildiz-teknik-universitesi",
+          "name": "Yıldız Teknik Üniversitesi",
+          "type": "Devlet",
+          "established": 1982
+        },
+        {
+          "id": "acibadem-mehmet-ali-aydinlar-universitesi",
+          "name": "Acıbadem Üniversitesi",
+          "type": "Vakıf",
+          "established": 2007
+        },
+        {
+          "id": "altinbas-universitesi",
+          "name": "Altınbaş Üniversitesi",
+          "type": "Vakıf",
+          "established": 2008
+        },
+        {
+          "id": "bahcesehir-universitesi",
+          "name": "Bahçeşehir Üniversitesi",
+          "type": "Vakıf",
+          "established": 1998
+        },
+        {
+          "id": "beykoz-universitesi",
+          "name": "Beykoz Üniversitesi",
+          "type": "Vakıf",
+          "established": 2016
+        },
+        {
+          "id": "bezm-i-lem-vakif-universitesi",
+          "name": "Bezm-i Âlem Vakıf Üniversitesi",
+          "type": "Vakıf",
+          "established": 2010
+        },
+        {
+          "id": "biruni-universitesi",
+          "name": "Biruni Üniversitesi",
+          "type": "Vakıf",
+          "established": 2014
+        },
+        {
+          "id": "demiroglu-bilim-universitesi",
+          "name": "Demiroğlu Bilim Üniversitesi",
+          "type": "Vakıf",
+          "established": 2006
+        },
+        {
+          "id": "dogus-universitesi",
+          "name": "Doğuş Üniversitesi",
+          "type": "Vakıf",
+          "established": 1997
+        },
+        {
+          "id": "fatih-sultan-mehmet-vakif-universitesi",
+          "name": "Fatih Sultan Mehmet Üniversitesi",
+          "type": "Vakıf",
+          "established": 2010
+        },
+        {
+          "id": "fenerbahce-universitesi",
+          "name": "Fenerbahçe Üniversitesi",
+          "type": "Vakıf",
+          "established": 2016
+        },
+        {
+          "id": "halic-universitesi",
+          "name": "Haliç Üniversitesi",
+          "type": "Vakıf",
+          "established": 1998
+        },
+        {
+          "id": "atasehir-adiguzel-meslek-yuksekokulu",
+          "name": "Ataşehir Adıgüzel Meslek Yüksekokulu",
+          "type": "Vakıf",
+          "established": 2014
+        },
+        {
+          "id": "istanbul-saglik-ve-sosyal-bilimler-meslek-yuksekokulu",
+          "name": "İstanbul Sağlık ve Sosyal Bilimler Meslek Yüksekokulu",
+          "type": "Vakıf",
+          "established": 2010
+        },
+        {
+          "id": "istanbul-sisli-meslek-yuksekokulu",
+          "name": "İstanbul Şişli Meslek Yüksekokulu",
+          "type": "Vakıf",
+          "established": 2012
+        },
+        {
+          "id": "isik-universitesi",
+          "name": "Işık Üniversitesi",
+          "type": "Vakıf",
+          "established": 1996
+        },
+        {
+          "id": "ibn-haldun-universitesi",
+          "name": "İbn Haldun Üniversitesi",
+          "type": "Vakıf",
+          "established": 2015
+        },
+        {
+          "id": "istanbul-29-mayis-universitesi",
+          "name": "İstanbul 29 Mayıs Üniversitesi",
+          "type": "Vakıf",
+          "established": 2010
+        },
+        {
+          "id": "istanbul-arel-universitesi",
+          "name": "İstanbul Arel Üniversitesi",
+          "type": "Vakıf",
+          "established": 2007
+        },
+        {
+          "id": "istanbul-atlas-universitesi",
+          "name": "İstanbul Atlas Üniversitesi",
+          "type": "Vakıf",
+          "established": 2018
+        },
+        {
+          "id": "istanbul-aydin-universitesi",
+          "name": "İstanbul Aydın Üniversitesi",
+          "type": "Vakıf",
+          "established": 2007
+        },
+        {
+          "id": "istanbul-beykent-universitesi",
+          "name": "İstanbul Beykent Üniversitesi",
+          "type": "Vakıf",
+          "established": 1997
+        },
+        {
+          "id": "istanbul-bilgi-universitesi",
+          "name": "İstanbul Bilgi Üniversitesi",
+          "type": "Vakıf",
+          "established": 1996
+        },
+        {
+          "id": "istanbul-esenyurt-universitesi",
+          "name": "İstanbul Esenyurt Üniversitesi",
+          "type": "Vakıf",
+          "established": 2013
+        },
+        {
+          "id": "istanbul-galata-universitesi",
+          "name": "İstanbul Galata Üniversitesi",
+          "type": "Vakıf",
+          "established": 2019
+        },
+        {
+          "id": "istanbul-gedik-universitesi",
+          "name": "İstanbul Gedik Üniversitesi",
+          "type": "Vakıf",
+          "established": 2010
+        },
+        {
+          "id": "istanbul-gelisim-universitesi",
+          "name": "İstanbul Gelişim Üniversitesi",
+          "type": "Vakıf",
+          "established": 2011
+        },
+        {
+          "id": "istanbul-kent-universitesi",
+          "name": "İstanbul Kent Üniversitesi",
+          "type": "Vakıf",
+          "established": 2016
+        },
+        {
+          "id": "istanbul-kultur-universitesi",
+          "name": "İstanbul Kültür Üniversitesi",
+          "type": "Vakıf",
+          "established": 1997
+        },
+        {
+          "id": "istanbul-medipol-universitesi",
+          "name": "İstanbul Medipol Üniversitesi",
+          "type": "Vakıf",
+          "established": 2009
+        },
+        {
+          "id": "istanbul-nisantasi-universitesi",
+          "name": "İstanbul Nişantaşı Üniversitesi",
+          "type": "Vakıf",
+          "established": 2012
+        },
+        {
+          "id": "istanbul-okan-universitesi",
+          "name": "İstanbul Okan Üniversitesi",
+          "type": "Vakıf",
+          "established": 1999
+        },
+        {
+          "id": "istanbul-rumeli-universitesi",
+          "name": "İstanbul Rumeli Üniversitesi",
+          "type": "Vakıf",
+          "established": 2015
+        },
+        {
+          "id": "istanbul-sabahattin-zaim-universitesi",
+          "name": "İstanbul Sabahattin Zaim Üniversitesi",
+          "type": "Vakıf",
+          "established": 2010
+        },
+        {
+          "id": "istanbul-saglik-ve-teknoloji-universitesi",
+          "name": "İstanbul Sağlık ve Teknoloji Üniversitesi",
+          "type": "Vakıf",
+          "established": 2018
+        },
+        {
+          "id": "istanbul-ticaret-universitesi",
+          "name": "İstanbul Ticaret Üniversitesi",
+          "type": "Vakıf",
+          "established": 2001
+        },
+        {
+          "id": "istanbul-topkapi-universitesi",
+          "name": "İstanbul Topkapı Üniversitesi",
+          "type": "Vakıf",
+          "established": 2016
+        },
+        {
+          "id": "istanbul-yeni-yuzyil-universitesi",
+          "name": "İstanbul Yeni Yüzyıl Üniversitesi",
+          "type": "Vakıf",
+          "established": 2009
+        },
+        {
+          "id": "istinye-universitesi",
+          "name": "İstinye Üniversitesi",
+          "type": "Vakıf",
+          "established": 2015
+        },
+        {
+          "id": "kadir-has-universitesi",
+          "name": "Kadir Has Üniversitesi",
+          "type": "Vakıf",
+          "established": 1997
+        },
+        {
+          "id": "koc-universitesi",
+          "name": "Koç Üniversitesi",
+          "type": "Vakıf",
+          "established": 1993
+        },
+        {
+          "id": "maltepe-universitesi",
+          "name": "Maltepe Üniversitesi",
+          "type": "Vakıf",
+          "established": 1997
+        },
+        {
+          "id": "mef-universitesi",
+          "name": "MEF Üniversitesi",
+          "type": "Vakıf",
+          "established": 2012
+        },
+        {
+          "id": "ozyegin-universitesi",
+          "name": "Özyeğin Üniversitesi",
+          "type": "Vakıf",
+          "established": 2007
+        },
+        {
+          "id": "piri-reis-universitesi",
+          "name": "Piri Reis Üniversitesi",
+          "type": "Vakıf",
+          "established": 2008
+        },
+        {
+          "id": "sabanci-universitesi",
+          "name": "Sabancı Üniversitesi",
+          "type": "Vakıf",
+          "established": 1996
+        },
+        {
+          "id": "uskudar-universitesi",
+          "name": "Üsküdar Üniversitesi",
+          "type": "Vakıf",
+          "established": 2011
+        },
+        {
+          "id": "yeditepe-universitesi",
+          "name": "Yeditepe Üniversitesi",
+          "type": "Vakıf",
+          "established": 1996
+        }
+      ],
+      "cx": 176.3,
+      "cy": 73.8
+    },
+    {
+      "id": "TR35",
+      "city": "İzmir",
+      "universities": [
+        {
+          "id": "dokuz-eylul-universitesi",
+          "name": "Dokuz Eylül Üniversitesi",
+          "type": "Devlet",
+          "established": 1982
+        },
+        {
+          "id": "ege-universitesi",
+          "name": "Ege Üniversitesi",
+          "type": "Devlet",
+          "established": 1955
+        },
+        {
+          "id": "izmir-bakircay-universitesi",
+          "name": "İzmir Bakırçay Üniversitesi",
+          "type": "Devlet",
+          "established": 2016
+        },
+        {
+          "id": "izmir-demokrasi-universitesi",
+          "name": "İzmir Demokrasi Üniversitesi",
+          "type": "Devlet",
+          "established": 2016
+        },
+        {
+          "id": "izmir-ekonomi-universitesi",
+          "name": "İzmir Ekonomi Üniversitesi",
+          "type": "Vakıf",
+          "established": 2001
+        },
+        {
+          "id": "izmir-katip-celebi-universitesi",
+          "name": "İzmir Kâtip Çelebi Üniversitesi",
+          "type": "Devlet",
+          "established": 2010
+        },
+        {
+          "id": "izmir-kavram-meslek-yuksekokulu",
+          "name": "İzmir Kavram Meslek Yüksekokulu",
+          "type": "Vakıf",
+          "established": 2008
+        },
+        {
+          "id": "izmir-tinaztepe-universitesi",
+          "name": "İzmir Tınaztepe Üniversitesi",
+          "type": "Vakıf",
+          "established": 2018
+        },
+        {
+          "id": "izmir-yuksek-teknoloji-enstitusu",
+          "name": "İzmir Yüksek Teknoloji Enstitüsü",
+          "type": "Devlet",
+          "established": 1992
+        },
+        {
+          "id": "yasar-universitesi",
+          "name": "Yaşar Üniversitesi",
+          "type": "Vakıf",
+          "established": 2001
+        }
+      ],
+      "cx": 127.6,
+      "cy": 259
+    },
+    {
+      "id": "TR36",
+      "city": "Kars",
+      "universities": [
+        {
+          "id": "kafkas-universitesi",
+          "name": "Kafkas Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        }
+      ],
+      "cx": 875.3,
+      "cy": 126.2
+    },
+    {
+      "id": "TR37",
+      "city": "Kastamonu",
+      "universities": [
+        {
+          "id": "kastamonu-universitesi",
+          "name": "Kastamonu Üniversitesi",
+          "type": "Devlet",
+          "established": 2006
+        }
+      ],
+      "cx": 421,
+      "cy": 56.5
+    },
+    {
+      "id": "TR38",
+      "city": "Kayseri",
+      "universities": [
+        {
+          "id": "abdullah-gul-universitesi",
+          "name": "Abdullah Gül Üniversitesi",
+          "type": "Devlet",
+          "established": 2010
+        },
+        {
+          "id": "erciyes-universitesi",
+          "name": "Erciyes Üniversitesi",
+          "type": "Devlet",
+          "established": 1978
+        },
+        {
+          "id": "kayseri-universitesi",
+          "name": "Kayseri Üniversitesi",
+          "type": "Devlet",
+          "established": 2018
+        },
+        {
+          "id": "nuh-naci-yazgan-universitesi",
+          "name": "Nuh Naci Yazgan Üniversitesi",
+          "type": "Vakıf",
+          "established": 2009
+        }
+      ],
+      "cx": 519.8,
+      "cy": 237.9
+    },
+    {
+      "id": "TR39",
+      "city": "Kırklareli",
+      "universities": [
+        {
+          "id": "kirklareli-universitesi",
+          "name": "Kırklareli Üniversitesi",
+          "type": "Devlet",
+          "established": 2007
+        }
+      ],
+      "cx": 126.1,
+      "cy": 47.6
+    },
+    {
+      "id": "TR40",
+      "city": "Kırşehir",
+      "universities": [
+        {
+          "id": "kirsehir-ahi-evran-universitesi",
+          "name": "Kırşehir Ahi Evran Üniversitesi",
+          "type": "Devlet",
+          "established": 2006
+        }
+      ],
+      "cx": 448.9,
+      "cy": 192.6
+    },
+    {
+      "id": "TR41",
+      "city": "Kocaeli",
+      "universities": [
+        {
+          "id": "gebze-teknik-universitesi",
+          "name": "Gebze Teknik Üniversitesi",
+          "type": "Devlet",
+          "established": 2014
+        },
+        {
+          "id": "kocaeli-universitesi",
+          "name": "Kocaeli Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        },
+        {
+          "id": "kocaeli-saglik-ve-teknoloji-universitesi",
+          "name": "Kocaeli Sağlık ve Teknoloji Üniversitesi",
+          "type": "Vakıf",
+          "established": 2020
+        }
+      ],
+      "cx": 254.3,
+      "cy": 93.2
+    },
+    {
+      "id": "TR42",
+      "city": "Konya",
+      "universities": [
+        {
+          "id": "selcuk-universitesi",
+          "name": "Selçuk Üniversitesi",
+          "type": "Devlet",
+          "established": 1975
+        },
+        {
+          "id": "necmettin-erbakan-universitesi",
+          "name": "Necmettin Erbakan Üniversitesi",
+          "type": "Devlet",
+          "established": 2010
+        },
+        {
+          "id": "konya-teknik-universitesi",
+          "name": "Konya Teknik Üniversitesi",
+          "type": "Devlet",
+          "established": 2018
+        },
+        {
+          "id": "kto-karatay-universitesi",
+          "name": "KTO Karatay Üniversitesi",
+          "type": "Vakıf",
+          "established": 2009
+        },
+        {
+          "id": "konya-gida-ve-tarim-universitesi",
+          "name": "Konya Gıda ve Tarım Üniversitesi",
+          "type": "Vakıf",
+          "established": 2013
+        }
+      ],
+      "cx": 368.1,
+      "cy": 267.4
+    },
+    {
+      "id": "TR43",
+      "city": "Kütahya",
+      "universities": [
+        {
+          "id": "kutahya-dumlupinar-universitesi",
+          "name": "Kütahya Dumlupınar Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        },
+        {
+          "id": "kutahya-saglik-bilimleri-universitesi",
+          "name": "Kütahya Sağlık Bilimleri Üniversitesi",
+          "type": "Devlet",
+          "established": 2018
+        }
+      ],
+      "cx": 231.8,
+      "cy": 194.5
+    },
+    {
+      "id": "TR44",
+      "city": "Malatya",
+      "universities": [
+        {
+          "id": "inonu-universitesi",
+          "name": "İnönü Üniversitesi",
+          "type": "Devlet",
+          "established": 1975
+        },
+        {
+          "id": "malatya-turgut-ozal-universitesi",
+          "name": "Malatya Turgut Özal Üniversitesi",
+          "type": "Devlet",
+          "established": 2018
+        }
+      ],
+      "cx": 630.1,
+      "cy": 234.9
+    },
+    {
+      "id": "TR45",
+      "city": "Manisa",
+      "universities": [
+        {
+          "id": "manisa-celal-bayar-universitesi",
+          "name": "Manisa Celal Bayar Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        }
+      ],
+      "cx": 175.1,
+      "cy": 230.6
+    },
+    {
+      "id": "TR46",
+      "city": "Kahramanmaraş",
+      "universities": [
+        {
+          "id": "kahramanmaras-sutcu-imam-universitesi",
+          "name": "Kahramanmaraş Sütçü İmam Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        },
+        {
+          "id": "kahramanmaras-istiklal-universitesi",
+          "name": "Kahramanmaraş İstiklal Üniversitesi",
+          "type": "Devlet",
+          "established": 2018
+        }
+      ],
+      "cx": 580.1,
+      "cy": 277.2
+    },
+    {
+      "id": "TR47",
+      "city": "Mardin",
+      "universities": [
+        {
+          "id": "mardin-artuklu-universitesi",
+          "name": "Mardin Artuklu Üniversitesi",
+          "type": "Devlet",
+          "established": 2007
+        }
+      ],
+      "cx": 770.8,
+      "cy": 307.9
+    },
+    {
+      "id": "TR48",
+      "city": "Muğla",
+      "universities": [
+        {
+          "id": "mugla-sitki-kocman-universitesi",
+          "name": "Muğla Sıtkı Koçman Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        }
+      ],
+      "cx": 184.9,
+      "cy": 328.4
+    },
+    {
+      "id": "TR49",
+      "city": "Muş",
+      "universities": [
+        {
+          "id": "mus-alparslan-universitesi",
+          "name": "Muş Alparslan Üniversitesi",
+          "type": "Devlet",
+          "established": 2007
+        }
+      ],
+      "cx": 808.6,
+      "cy": 219.4
+    },
+    {
+      "id": "TR50",
+      "city": "Nevşehir",
+      "universities": [
+        {
+          "id": "nevsehir-haci-bektas-veli-universitesi",
+          "name": "Nevşehir Hacı Bektaş Veli Üniversitesi",
+          "type": "Devlet",
+          "established": 2007
+        },
+        {
+          "id": "kapadokya-universitesi",
+          "name": "Kapadokya Üniversitesi",
+          "type": "Vakıf",
+          "established": 2017
+        }
+      ],
+      "cx": 473.8,
+      "cy": 226.7
+    },
+    {
+      "id": "TR51",
+      "city": "Niğde",
+      "universities": [
+        {
+          "id": "nigde-omer-halisdemir-universitesi",
+          "name": "Niğde Ömer Halisdemir Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        }
+      ],
+      "cx": 472.6,
+      "cy": 272.5
+    },
+    {
+      "id": "TR52",
+      "city": "Ordu",
+      "universities": [
+        {
+          "id": "ordu-universitesi",
+          "name": "Ordu Üniversitesi",
+          "type": "Devlet",
+          "established": 2006
+        }
+      ],
+      "cx": 609.4,
+      "cy": 101.2
+    },
+    {
+      "id": "TR53",
+      "city": "Rize",
+      "universities": [
+        {
+          "id": "recep-tayyip-erdogan-universitesi",
+          "name": "Recep Tayyip Erdoğan Üniversitesi",
+          "type": "Devlet",
+          "established": 2006
+        }
+      ],
+      "cx": 768.1,
+      "cy": 92.4
+    },
+    {
+      "id": "TR54",
+      "city": "Sakarya",
+      "universities": [
+        {
+          "id": "sakarya-universitesi",
+          "name": "Sakarya Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        },
+        {
+          "id": "sakarya-uygulamali-bilimler-universitesi",
+          "name": "Sakarya Uygulamalı Bilimler Üniversitesi",
+          "type": "Devlet",
+          "established": 2018
+        }
+      ],
+      "cx": 274.8,
+      "cy": 107.5
+    },
+    {
+      "id": "TR55",
+      "city": "Samsun",
+      "universities": [
+        {
+          "id": "ondokuz-mayis-universitesi",
+          "name": "Ondokuz Mayıs Üniversitesi",
+          "type": "Devlet",
+          "established": 1975
+        },
+        {
+          "id": "samsun-universitesi",
+          "name": "Samsun Üniversitesi",
+          "type": "Devlet",
+          "established": 2018
+        }
+      ],
+      "cx": 529.3,
+      "cy": 74
+    },
+    {
+      "id": "TR56",
+      "city": "Siirt",
+      "universities": [
+        {
+          "id": "siirt-universitesi",
+          "name": "Siirt Üniversitesi",
+          "type": "Devlet",
+          "established": 2007
+        }
+      ],
+      "cx": 822.5,
+      "cy": 277.5
+    },
+    {
+      "id": "TR57",
+      "city": "Sinop",
+      "universities": [
+        {
+          "id": "sinop-universitesi",
+          "name": "Sinop Üniversitesi",
+          "type": "Devlet",
+          "established": 2007
+        }
+      ],
+      "cx": 483.6,
+      "cy": 48.4
+    },
+    {
+      "id": "TR58",
+      "city": "Sivas",
+      "universities": [
+        {
+          "id": "sivas-cumhuriyet-universitesi",
+          "name": "Sivas Cumhuriyet Üniversitesi",
+          "type": "Devlet",
+          "established": 1974
+        },
+        {
+          "id": "sivas-bilim-ve-teknoloji-universitesi",
+          "name": "Sivas Bilim ve Teknoloji Üniversitesi",
+          "type": "Devlet",
+          "established": 2018
+        }
+      ],
+      "cx": 600.3,
+      "cy": 177.5
+    },
+    {
+      "id": "TR59",
+      "city": "Tekirdağ",
+      "universities": [
+        {
+          "id": "tekirdag-namik-kemal-universitesi",
+          "name": "Tekirdağ Namık Kemal Üniversitesi",
+          "type": "Devlet",
+          "established": 2006
+        }
+      ],
+      "cx": 115.5,
+      "cy": 87.1
+    },
+    {
+      "id": "TR60",
+      "city": "Tokat",
+      "universities": [
+        {
+          "id": "tokat-gaziosmanpasa-universitesi",
+          "name": "Tokat Gaziosmanpaşa Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        }
+      ],
+      "cx": 568.3,
+      "cy": 122.1
+    },
+    {
+      "id": "TR61",
+      "city": "Trabzon",
+      "universities": [
+        {
+          "id": "karadeniz-teknik-universitesi",
+          "name": "Karadeniz Teknik Üniversitesi",
+          "type": "Devlet",
+          "established": 1955
+        },
+        {
+          "id": "trabzon-universitesi",
+          "name": "Trabzon Üniversitesi",
+          "type": "Devlet",
+          "established": 2018
+        },
+        {
+          "id": "avrasya-universitesi",
+          "name": "Avrasya Üniversitesi",
+          "type": "Vakıf",
+          "established": 2010
+        }
+      ],
+      "cx": 716.4,
+      "cy": 101
+    },
+    {
+      "id": "TR62",
+      "city": "Tunceli",
+      "universities": [
+        {
+          "id": "munzur-universitesi",
+          "name": "Munzur Üniversitesi",
+          "type": "Devlet",
+          "established": 2008
+        }
+      ],
+      "cx": 704.7,
+      "cy": 204
+    },
+    {
+      "id": "TR63",
+      "city": "Şanlıurfa",
+      "universities": [
+        {
+          "id": "harran-universitesi",
+          "name": "Harran Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        }
+      ],
+      "cx": 688.5,
+      "cy": 321
+    },
+    {
+      "id": "TR64",
+      "city": "Uşak",
+      "universities": [
+        {
+          "id": "usak-universitesi",
+          "name": "Uşak Üniversitesi",
+          "type": "Devlet",
+          "established": 2006
+        }
+      ],
+      "cx": 223.2,
+      "cy": 242.7
+    },
+    {
+      "id": "TR65",
+      "city": "Van",
+      "universities": [
+        {
+          "id": "van-yuzuncu-yil-universitesi",
+          "name": "Van Yüzüncü Yıl Üniversitesi",
+          "type": "Devlet",
+          "established": 1982
+        }
+      ],
+      "cx": 900.1,
+      "cy": 246.9
+    },
+    {
+      "id": "TR66",
+      "city": "Yozgat",
+      "universities": [
+        {
+          "id": "yozgat-bozok-universitesi",
+          "name": "Yozgat Bozok Üniversitesi",
+          "type": "Devlet",
+          "established": 2006
+        }
+      ],
+      "cx": 504.6,
+      "cy": 176.7
+    },
+    {
+      "id": "TR67",
+      "city": "Zonguldak",
+      "universities": [
+        {
+          "id": "zonguldak-bulent-ecevit-universitesi",
+          "name": "Zonguldak Bülent Ecevit Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        }
+      ],
+      "cx": 343.3,
+      "cy": 71.5
+    },
+    {
+      "id": "TR68",
+      "city": "Aksaray",
+      "universities": [
+        {
+          "id": "aksaray-universitesi",
+          "name": "Aksaray Üniversitesi",
+          "type": "Devlet",
+          "established": 2006
+        }
+      ],
+      "cx": 434.1,
+      "cy": 252.8
+    },
+    {
+      "id": "TR69",
+      "city": "Bayburt",
+      "universities": [
+        {
+          "id": "bayburt-universitesi",
+          "name": "Bayburt Üniversitesi",
+          "type": "Devlet",
+          "established": 2008
+        }
+      ],
+      "cx": 736.9,
+      "cy": 133.7
+    },
+    {
+      "id": "TR70",
+      "city": "Karaman",
+      "universities": [
+        {
+          "id": "karamanoglu-mehmetbey-universitesi",
+          "name": "Karamanoğlu Mehmetbey Üniversitesi",
+          "type": "Devlet",
+          "established": 2007
+        }
+      ],
+      "cx": 398.4,
+      "cy": 323.7
+    },
+    {
+      "id": "TR71",
+      "city": "Kırıkkale",
+      "universities": [
+        {
+          "id": "kirikkale-universitesi",
+          "name": "Kırıkkale Üniversitesi",
+          "type": "Devlet",
+          "established": 1992
+        }
+      ],
+      "cx": 424.4,
+      "cy": 166.1
+    },
+    {
+      "id": "TR72",
+      "city": "Batman",
+      "universities": [
+        {
+          "id": "batman-universitesi",
+          "name": "Batman Üniversitesi",
+          "type": "Devlet",
+          "established": 2007
+        }
+      ],
+      "cx": 794.5,
+      "cy": 257.1
+    },
+    {
+      "id": "TR73",
+      "city": "Şırnak",
+      "universities": [
+        {
+          "id": "sirnak-universitesi",
+          "name": "Şırnak Üniversitesi",
+          "type": "Devlet",
+          "established": 2008
+        }
+      ],
+      "cx": 843.9,
+      "cy": 306.9
+    },
+    {
+      "id": "TR74",
+      "city": "Bartın",
+      "universities": [
+        {
+          "id": "bartin-universitesi",
+          "name": "Bartın Üniversitesi",
+          "type": "Devlet",
+          "established": 2008
+        }
+      ],
+      "cx": 369.3,
+      "cy": 53.1
+    },
+    {
+      "id": "TR75",
+      "city": "Ardahan",
+      "universities": [
+        {
+          "id": "ardahan-universitesi",
+          "name": "Ardahan Üniversitesi",
+          "type": "Devlet",
+          "established": 2008
+        }
+      ],
+      "cx": 859.9,
+      "cy": 77.1
+    },
+    {
+      "id": "TR76",
+      "city": "Iğdır",
+      "universities": [
+        {
+          "id": "igdir-universitesi",
+          "name": "Iğdır Üniversitesi",
+          "type": "Devlet",
+          "established": 2008
+        }
+      ],
+      "cx": 915.7,
+      "cy": 161.9
+    },
+    {
+      "id": "TR77",
+      "city": "Yalova",
+      "universities": [
+        {
+          "id": "yalova-universitesi",
+          "name": "Yalova Üniversitesi",
+          "type": "Devlet",
+          "established": 2008
+        }
+      ],
+      "cx": 215.4,
+      "cy": 114.7
+    },
+    {
+      "id": "TR78",
+      "city": "Karabük",
+      "universities": [
+        {
+          "id": "karabuk-universitesi",
+          "name": "Karabük Üniversitesi",
+          "type": "Devlet",
+          "established": 2007
+        }
+      ],
+      "cx": 378.4,
+      "cy": 77.9
+    },
+    {
+      "id": "TR79",
+      "city": "Kilis",
+      "universities": [
+        {
+          "id": "kilis-7-aralik-universitesi",
+          "name": "Kilis 7 Aralık Üniversitesi",
+          "type": "Devlet",
+          "established": 2007
+        }
+      ],
+      "cx": 586.2,
+      "cy": 344.3
+    },
+    {
+      "id": "TR80",
+      "city": "Osmaniye",
+      "universities": [
+        {
+          "id": "osmaniye-korkut-ata-universitesi",
+          "name": "Osmaniye Korkut Ata Üniversitesi",
+          "type": "Devlet",
+          "established": 2007
+        }
+      ],
+      "cx": 550.1,
+      "cy": 322.8
+    },
+    {
+      "id": "TR81",
+      "city": "Düzce",
+      "universities": [
+        {
+          "id": "duzce-universitesi",
+          "name": "Düzce Üniversitesi",
+          "type": "Devlet",
+          "established": 2006
+        }
+      ],
+      "cx": 311.3,
+      "cy": 95.8
+    }
+  ]
+}
