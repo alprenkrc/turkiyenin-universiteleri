@@ -177,7 +177,6 @@ const TurkeyMap = ({ filters }: TurkeyMapProps) => {
           }}
         >
         <div className="flex justify-between ">
-
           <h3 className="font-bold text-lg mb-2">{tooltipData.cityName}</h3>
           <button onClick={handleClose} className=" text-gray-500 hover:text-gray-700 ">
           <IoMdClose size={25} color="black"/>

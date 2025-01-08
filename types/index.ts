@@ -20,9 +20,6 @@ export interface University {
   name: string;
 
 
-
-  established: number;
-
 }
 
 export interface FilterOptions {
