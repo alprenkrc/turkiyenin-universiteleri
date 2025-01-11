@@ -46,11 +46,21 @@ const Page = () => {
 
       return citiesData.reduce((acc, city) => {
         const filteredUniversities = city.universities.filter(university => {
-          if (activeFilters.includes('state') && university.type === 'state') return true;
-          if (activeFilters.includes('private') && university.type === 'private') return true;
-          if (activeFilters.includes('before2000') && university.foundedYear < 2000) return true;
-          if (activeFilters.includes('after2000') && university.foundedYear >= 2000) return true;
-          return false;
+          // Tip filtresi kontrolü (devlet/vakıf)
+          const typeFilters = activeFilters.filter(f => ['state', 'private'].includes(f));
+          const matchesType = typeFilters.length === 0 || typeFilters.some(filter => 
+            (filter === 'state' && university.type === 'state') ||
+            (filter === 'private' && university.type === 'private')
+          );
+
+          // Yıl filtresi kontrolü (2000 öncesi/sonrası)
+          const yearFilters = activeFilters.filter(f => ['before2000', 'after2000'].includes(f));
+          const matchesYear = yearFilters.length === 0 || yearFilters.some(filter =>
+            (filter === 'before2000' && university.foundedYear < 2000) ||
+            (filter === 'after2000' && university.foundedYear >= 2000)
+          );
+
+          return matchesType && matchesYear;
         });
         return acc + filteredUniversities.length;
       }, 0);
