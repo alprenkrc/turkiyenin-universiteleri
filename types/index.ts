@@ -15,12 +15,6 @@ export interface City {
     y: number;
   };
 }
-export interface University {
-
-  name: string;
-
-
-}
 
 export interface FilterOptions {
   type?: 'state' | 'private' | 'all';

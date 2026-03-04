@@ -2,6 +2,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { citiesData } from "../data/cities";
+import { City, University } from "../types";
 import MapFeatures from "./MapFeatures";
 import { IoMdClose } from "react-icons/io";
 
@@ -21,7 +22,7 @@ const TurkeyMap = ({ filters, animationYear, isPlaying = true }: TurkeyMapProps)
   const [fixedTooltip, setFixedTooltip] = useState(false);
   const [windowSize, setWindowSize] = useState({ width: 0, height: 0 });
 
-  const [popups, setPopups] = useState<Array<{ uni: any; city: any; popupId: string }>>([]);
+  const [popups, setPopups] = useState<Array<{ uni: University; city: City; popupId: string }>>([]);
   const prevAnimationYear = useRef<number | null>(null);
 
   useEffect(() => {
@@ -32,7 +33,7 @@ const TurkeyMap = ({ filters, animationYear, isPlaying = true }: TurkeyMapProps)
     }
 
     if (animationYear !== prevAnimationYear.current) {
-      const newlyAdded: Array<{ uni: any; city: any; popupId: string }> = [];
+      const newlyAdded: Array<{ uni: University; city: City; popupId: string }> = [];
       citiesData.forEach(city => {
         city.universities.forEach(uni => {
           if (uni.foundedYear === animationYear) {

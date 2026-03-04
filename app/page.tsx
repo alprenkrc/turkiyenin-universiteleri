@@ -122,88 +122,90 @@ const Page = () => {
   return (
     <main className='justify-center items-center flex flex-col bg-[#c4e6c3] min-h-screen'>
 
-      {/* Portrait mode warning removed - layout is now responsive */}
-
-      <div className="flex flex-col items-center gap-4 mb-4 ">
-        <div className='items-center flex flex-col px-4 text-center'>
-          <h1 className="text-xl sm:text-2xl font-bold text-black mt-4">Türkiye&apos;nin Üniversite Haritası</h1>
-          <p className="text-base sm:text-xl text-gray-800 ">Toplam Üniversite Sayısı: {filteredUniversityCount}</p>
-          <p className="text-xs sm:text-sm text-gray-500 mt-1">Veriler YÖK Atlas&apos;tan alınmıştır.</p>
+      {/* Portrait/mobile rotation warning */}
+      {isPortrait && (
+        <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 px-4 py-2 fixed top-0 left-0 right-0 z-50 text-sm font-bold shadow">
+          📱 Daha iyi görüntüleme için telefonunuzu yan çevirin!
         </div>
+      )}
 
-        <div className="flex flex-col items-center gap-2 my-2 p-4 sm:p-6 bg-lime-100 rounded-2xl shadow-sm border border-lime-300 w-full max-w-2xl mx-4">
-          <div className="text-2xl sm:text-4xl font-black text-lime-900 drop-shadow-sm mb-2 tabular-nums text-center">
-            {animationYear !== null ? `Yıl: ${animationYear}` : "Tüm Yıllar"}
+      {/* Sticky animation control bar at top */}
+      <div className={`sticky z-30 w-full bg-lime-100/95 backdrop-blur border-b border-lime-300 shadow-sm px-4 py-2 ${isPortrait ? 'top-9' : 'top-0'}`}>
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center gap-2">
+          {/* Year + progress */}
+          <div className="flex items-center gap-3 flex-1 min-w-0">
+            <span className="text-lg sm:text-2xl font-black text-lime-900 tabular-nums whitespace-nowrap">
+              {animationYear !== null ? `📅 ${animationYear}` : "Tüm Yıllar"}
+            </span>
+            <div className="flex-1 bg-gray-300 rounded-full h-2 overflow-hidden min-w-[60px]">
+              <div
+                className="bg-lime-600 h-2 rounded-full transition-all duration-75"
+                style={{ width: animationYear !== null ? `${((animationYear - minYear) / (maxYear - minYear)) * 100}%` : '0%' }}
+              />
+            </div>
           </div>
-
-          <div className="w-full bg-gray-300 rounded-full h-2.5 mb-2 relative overflow-hidden">
-            <div
-              className="bg-lime-600 h-2.5 rounded-full transition-all duration-75"
-              style={{ width: animationYear !== null ? `${((animationYear - minYear) / (maxYear - minYear)) * 100}%` : '0%' }}
-            ></div>
-          </div>
-
-          <div className="flex flex-wrap justify-center gap-2 sm:gap-4 mt-2">
+          {/* Controls */}
+          <div className="flex items-center gap-2">
             <button
               onClick={handlePlayPause}
-              className={`flex items-center justify-center gap-2 w-28 sm:w-36 py-2 sm:py-3 rounded-full font-bold transition-all shadow-md transform hover:scale-105 ${isPlaying ? 'bg-amber-500 hover:bg-amber-600' : 'bg-lime-600 hover:bg-lime-700'} text-white text-sm sm:text-base`}
-              title={isPlaying ? "Duraklat" : "Oynat"}
+              className={`flex items-center gap-1.5 px-4 py-1.5 rounded-full font-bold text-sm transition-all shadow transform hover:scale-105 ${isPlaying ? 'bg-amber-500 hover:bg-amber-600' : 'bg-lime-600 hover:bg-lime-700'} text-white`}
             >
-              {isPlaying ? <FaPause size={16} /> : <FaPlay size={16} />}
+              {isPlaying ? <FaPause size={13} /> : <FaPlay size={13} />}
               {isPlaying ? "Duraklat" : "Başlat"}
             </button>
             <button
               onClick={handleReset}
-              className="flex items-center justify-center gap-2 bg-red-500 hover:bg-red-600 text-white w-24 sm:w-32 py-2 sm:py-3 rounded-full font-bold transition-all shadow-md disabled:opacity-50 disabled:transform-none transform hover:scale-105 text-sm sm:text-base"
               disabled={animationYear === null && !isPlaying}
-              title="Sıfırla"
+              className="flex items-center gap-1.5 bg-red-500 hover:bg-red-600 disabled:opacity-40 text-white px-3 py-1.5 rounded-full font-bold text-sm transition-all shadow transform hover:scale-105"
             >
-              <FaStop size={16} /> Sıfırla
+              <FaStop size={13} /> Sıfırla
             </button>
-            <div className="flex items-center gap-1 bg-white rounded-full px-3 border border-gray-300">
-              <button
-                onClick={() => handleSpeedChange(-0.25)}
-                className="p-2 text-gray-600 hover:text-lime-700 transition"
-                title="Yavaşlat"
-              >
-                <FaMinus size={14} />
+            <div className="flex items-center gap-1 bg-white rounded-full px-2.5 py-1 border border-gray-300">
+              <button onClick={() => handleSpeedChange(-0.25)} className="text-gray-600 hover:text-lime-700 transition p-1">
+                <FaMinus size={12} />
               </button>
-              <span className="font-bold text-gray-700 w-10 text-center text-sm">{animationSpeed}x</span>
-              <button
-                onClick={() => handleSpeedChange(0.25)}
-                className="p-2 text-gray-600 hover:text-lime-700 transition"
-                title="Hızlandır"
-              >
-                <FaPlus size={14} />
+              <span className="font-bold text-gray-700 w-9 text-center text-xs">{animationSpeed}x</span>
+              <button onClick={() => handleSpeedChange(0.25)} className="text-gray-600 hover:text-lime-700 transition p-1">
+                <FaPlus size={12} />
               </button>
             </div>
           </div>
         </div>
-
-        <div className="flex flex-wrap justify-center gap-2 px-4 mt-2">
+        {/* Filter buttons row inside sticky bar */}
+        <div className="flex flex-wrap justify-center gap-1.5 pt-1.5 pb-0.5">
           <button onClick={() => toggleFilter('all')} className={buttonClasses('all')}>
-            Tümü
+            Tüm Üniversiteler
           </button>
           <button onClick={() => toggleFilter('state')} className={buttonClasses('state')}>
-            Devlet
+            Devlet Üniversiteleri
           </button>
           <button onClick={() => toggleFilter('private')} className={buttonClasses('private')}>
-            Vakıf
+            Vakıf Üniversiteleri
           </button>
           <button onClick={() => toggleFilter('before2000')} className={buttonClasses('before2000')}>
-            2000 Öncesi
+            2000 Öncesi Kurulan
           </button>
           <button onClick={() => toggleFilter('after2000')} className={buttonClasses('after2000')}>
-            2000 Sonrası
+            2000 Sonrası Kurulan
           </button>
         </div>
       </div>
 
-      <div className='mb-8'>
+      {/* Title */}
+      <div className='items-center flex flex-col px-4 text-center pt-3 pb-1'>
+        <h1 className="text-xl sm:text-2xl font-bold text-black">Türkiye&apos;nin Üniversite Haritası</h1>
+        <p className="text-base sm:text-lg text-gray-800">Toplam Üniversite Sayısı: {filteredUniversityCount}</p>
+        <p className="text-xs text-gray-500">Veriler YÖK Atlas&apos;tan alınmıştır.</p>
+      </div>
+
+      {/* Map */}
+      <div className='w-full'>
         <TurkeyMap filters={activeFilters} animationYear={animationYear} isPlaying={isPlaying} />
       </div>
 
-      <div className='flex justify-center gap-4 mb-4 mt-2'>
+
+      {/* Social links */}
+      <div className='flex justify-center gap-4 mb-4'>
         <a target='_blank' href="https://github.com/alprenkrc"><FaGithub size={28} color='black' /></a>
         <a target='_blank' href="https://www.linkedin.com/in/alperen-k%C4%B1r%C4%B1c%C4%B1-001887150/"><FaLinkedin size={28} color='black' /></a>
         <a target='_blank' href="https://www.instagram.com/alprenkrc"><FaInstagram size={28} color='black' /></a>
@@ -215,3 +217,4 @@ const Page = () => {
 };
 
 export default Page;
+
