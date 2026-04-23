@@ -61,6 +61,7 @@ const TurkeyMap = ({ filters, animationYear, isPlaying = true }: TurkeyMapProps)
       });
     };
 
+    handleResize();
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
